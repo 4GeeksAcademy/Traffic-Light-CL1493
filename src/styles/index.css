@@ -1,23 +1,34 @@
 .container{
     background-color: black;
+    width: 125px;
+    height: 350px;
+    padding-top: 15px;
 }
 .red {
     width: 100px;
     height: 100px;
     background-color: red;
     border-radius: 50%;
+    margin: 2px;
+    margin-bottom: 5px;
+    padding: 2px;
 }
 .yellow{
     width: 100px;
     height: 100px;
     background-color: orange;
     border-radius: 50%;
+    margin: 2px;
+    margin-bottom: 5px;
+    padding: 2px;
 }
 .green{
     width: 100px;
     height: 100px;
     background-color: greenyellow;
     border-radius: 50%;
+    margin: 2px;
+    padding: 2px;
 }
 
 

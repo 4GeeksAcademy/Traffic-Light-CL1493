@@ -32,7 +32,8 @@ const Traffic = () => {
 			</div>
 			<div className="green">
 			</div>
-		</div><button onClick={()=> {
+		</div>
+		<button onClick={()=> {
 			handleClick();
 			}}>Holi holi</button></>
 	);
