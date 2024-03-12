@@ -26,16 +26,13 @@ const Traffic = () => {
 
 	return (
 		<><div className="text-center container">
-			<div className="red">
-			</div>
-			<div className="yellow">
-			</div>
-			<div className="green">
-			</div>
+			<div onClick={()=> {setColor("red")}} className= {"red" + (color === "red" ? "red": "")}></div>
+			<div onClick={()=> {setColor("yellow")}} className= {"yellow" + (color === "yellow" ? "glow": "")}></div>
+			<div onClick={()=> {setColor("green")}} className= {"green" + (color === "green" ? "glow": "")}></div>
 		</div>
 		<button onClick={()=> {
 			handleClick();
-			}}>Holi holi</button></>
+			}}>Cambia el semáforo</button></>
 	);
 };
 
