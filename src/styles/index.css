@@ -1,5 +1,5 @@
-
 .container{
+    margin-top: 50px;
     background-color: black;
     width: 125px;
     height: 350px;
@@ -31,7 +31,7 @@
     margin: 2px;
     padding: 2px;
 }
-.glow{
+.glow {
     width: 100px;
     height: 100px;
     box-shadow: 0 0 20px rgb(230, 247, 2);
@@ -40,6 +40,7 @@
     padding: 2px;
 }
 button{
+    margin-top:30px;
     margin-left: 50%;
     transform: translateX(-50%);
     width: 200px;
